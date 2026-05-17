@@ -3,13 +3,13 @@
 > 让马基雅维利的思维方式和分析能力成为你的日常工具。
 > Turn Machiavelli's way of thinking into your everyday tool.
 
-一个基于马基雅维利著作全集（君主论、论李维、政务与外交著作、书信集、佛罗伦萨史、兵法等）蒸馏而成的 AI Skill。不只是知识库，而是一个**可对话的数字分身**——他按照马基雅维利的思维方式、分析框架和表达风格与你交流。
-
-A WorkBuddy Skill distilled from Machiavelli's complete works. Not just a knowledge base — a **conversational digital twin** that thinks, analyzes, and speaks like Machiavelli himself.
-
 ---
 
-## 核心特性 / Features
+## 中文说明
+
+一个基于马基雅维利著作全集（《君主论》《论李维》《政务与外交著作》《书信集》《佛罗伦萨史》《兵法》等）蒸馏而成的 AI Skill。不只是知识库，而是一个 **可对话的数字分身**——他按照马基雅维利的思维方式、分析框架和表达风格与你交流。
+
+### 核心特性
 
 - **三种工作模式**：对话模式（完整人格）、分析模式（纯分析）、写作模式（专注公文）
 - **13条核心信条**：从实效真理到狮狐之喻，每条附原文引用和含义解释
@@ -17,27 +17,40 @@ A WorkBuddy Skill distilled from Machiavelli's complete works. Not just a knowle
 - **5个可执行框架**：局势研判、公文建议、角色扮演分析、写作表达、谈判准备——每个配有马基雅维利原文示例
 - **四重人格刻画**：共和 vs 君主、行动 vs 书斋、冷眼 vs 怀古、政论 vs 喜剧
 
----
+### 安装
 
-## 安装 / Installation
-
-### WorkBuddy
+#### WorkBuddy
 
 ```bash
+# 方法一：直接复制
 cp -r machiavelli-skill ~/.workbuddy/skills/马基雅维利
+
+# 方法二：通过 ClawHub 安装
+npx clawhub install machiavelli-skill --workdir ~ --dir .workbuddy/skills
 ```
 
-### CodeBuddy
+#### CodeBuddy
 
 ```bash
 cp -r machiavelli-skill ~/.codebuddy/skills/马基雅维利
 ```
 
-直接复制到 skills 目录即可，系统会自动识别。
+#### OpenClaw / Hermes
 
----
+```bash
+# 方法一：通过 OpenClaw ClawHub 安装
+npx clawhub install machiavelli-skill
 
-## 使用方式 / Usage
+# 方法二：手动复制到 skills 目录
+cp -r machiavelli-skill ~/.clawdbot/skills/马基雅维利
+
+# 方法三：Hermes (兼容目录)
+cp -r machiavelli-skill ~/.hermes/skills/马基雅维利
+```
+
+直接复制到对应平台的 skills 目录即可，系统会自动识别。
+
+### 使用方式
 
 | 模式 | 触发词 | 适用场景 |
 |------|--------|----------|
@@ -47,7 +60,7 @@ cp -r machiavelli-skill ~/.codebuddy/skills/马基雅维利
 
 对话中途可切换模式，说"换分析模式"或"换写作模式"即可。
 
-### 示例 / Examples
+### 示例
 
 ```
 /马 单位里两个科室争主导权，我该怎么协调？
@@ -57,22 +70,87 @@ cp -r machiavelli-skill ~/.codebuddy/skills/马基雅维利
 
 ---
 
+## English Description
+
+An AI Skill distilled from the complete works of Niccolò Machiavelli (The Prince, Discourses on Livy, Art of War, Florentine Histories, Diplomatic Writings, Letters, etc.). This is not merely a knowledge base — it is a **conversational digital twin** that analyzes situations, assesses risks, and offers advice the way Machiavelli himself would.
+
+### Features
+
+- **Three Working Modes**: Dialogue (full persona), Analysis (pure reasoning, no stories), Writing (document strategy focus)
+- **13 Core Tenets**: From *verità effettuale* (effectual truth) to the Lion-and-Fox analogy, each with original quotes and explanations
+- **11 Historical Mirrors**: Real cases drawn from Cesare Borgia, Caterina Sforza, Roman history, and Machiavelli's own diplomatic missions
+- **5 Executable Frameworks**: Situation Analysis, Policy Proposal, Role-Playing Analysis, Writing Expression, Negotiation Prep — each illustrated with Machiavelli's original dispatches
+- **Four Layers of Persona**: Republican vs Monarchist, Man of Action vs Forced Scholar, Cynic vs Nostalgic, Political Analyst vs Comedy Playwright
+
+### Installation
+
+#### WorkBuddy
+
+```bash
+# Option 1: copy directly
+cp -r machiavelli-skill ~/.workbuddy/skills/马基雅维利
+
+# Option 2: install via ClawHub
+npx clawhub install machiavelli-skill --workdir ~ --dir .workbuddy/skills
+```
+
+#### CodeBuddy
+
+```bash
+cp -r machiavelli-skill ~/.codebuddy/skills/马基雅维利
+```
+
+#### OpenClaw / Hermes
+
+```bash
+# Option 1: install via ClawHub
+npx clawhub install machiavelli-skill
+
+# Option 2: manual copy to skills directory
+cp -r machiavelli-skill ~/.clawdbot/skills/马基雅维利
+
+# Option 3: Hermes (compatible directory)
+cp -r machiavelli-skill ~/.hermes/skills/马基雅维利
+```
+
+Simply copy the folder into your platform's skills directory. The system will auto-detect it.
+
+### Usage
+
+| Mode | Trigger | When to Use |
+|------|---------|-------------|
+| Dialogue | `/马` or "Machiavelli, ..." | Full persona conversation, deep analysis |
+| Analysis | `/马分析` | Pure situation analysis, straight to the point |
+| Writing | `/马写作` | Document strategy, phrasing, and tone advice |
+
+Switch modes mid-conversation by saying "换分析模式" or "换写作模式".
+
+### Examples
+
+```
+/马 Two departments are fighting over project ownership. How do I mediate?
+/马分析 Where are the real risks in this project?
+/马写作 How should I phrase bad news in a report to my superiors?
+```
+
+---
+
 ## 文件结构 / Project Structure
 
 ```
 machiavelli-skill/
-├── SKILL.md                    # 主技能定义（699行）
-├── test-prompts.json           # 12条触发条件测试用例
-├── frameworks/                 # 8个概念框架卡片
-│   ├── 01-verita-effettuale.md
-│   ├── 02-virtu-vs-fortuna.md
-│   ├── 03-lion-and-fox.md
-│   ├── 04-fear-vs-love.md
-│   ├── 05-learn-to-be-evil.md
-│   ├── 06-people-vs-elites.md
-│   ├── 07-own-arms.md
-│   └── 08-republic-vs-principality.md
-├── sources/                    # 10个著作蒸馏
+├── SKILL.md                    # Main skill definition (699 lines)
+├── test-prompts.json           # 12 trigger-condition test cases
+├── frameworks/                 # 8 conceptual framework cards
+│   ├── 01-verita-effettuale.md        # Effectual Truth
+│   ├── 02-virtu-vs-fortuna.md         # Virtù vs Fortuna
+│   ├── 03-lion-and-fox.md             # Lion and Fox
+│   ├── 04-fear-vs-love.md             # Fear vs Love
+│   ├── 05-learn-to-be-evil.md         # Learn to Be Evil
+│   ├── 06-people-vs-elites.md         # People vs Elites
+│   ├── 07-own-arms.md                 # Own Arms
+│   └── 08-republic-vs-principality.md # Republic vs Principality
+├── sources/                    # 10 distilled source summaries
 │   ├── the-prince.md
 │   ├── discourses.md
 │   ├── art-of-war.md
@@ -84,7 +162,7 @@ machiavelli-skill/
 │   ├── maugham-novel.md
 │   └── mccormic-interpretation.md
 ├── personality/
-│   └── machiavelli-bio-distilled.md
+│   └── machiavelli-bio-distilled.md   # Biography-based persona distillation
 ├── README.md
 └── LICENSE
 ```
@@ -93,22 +171,38 @@ machiavelli-skill/
 
 ## 源材料 / Source Materials
 
-本 skill 基于以下著作蒸馏而成：
+本 skill 基于以下著作蒸馏而成。
 
-- **马基雅维利原著**：《君主论》《论李维》《兵法》《佛罗伦萨史》《政务与外交著作》（上下）《书信集》（上下）
-- **传记**：盐野七生《我的朋友马基雅维利》、亚历山大·李《马基雅维利：他的生活与时代》、维罗利《尼科洛的微笑》
-- **研究**：盐野七生《马基雅维利语录》、麦考米克《解读马基雅维利》、娄林《君主及其战争技艺》
-- **小说**：毛姆《彼时此时——马基雅维利在伊莫拉》
+**马基雅维利原著**：
+- 《君主论》/ *The Prince*
+- 《论李维》/ *Discourses on Livy*
+- 《兵法》/ *The Art of War*
+- 《佛罗伦萨史》/ *Florentine Histories*
+- 《政务与外交著作》（上下）/ *Diplomatic Writings (2 vols.)*
+- 《书信集》（上下）/ *Collected Letters (2 vols.)*
+
+**传记 / Biographies**：
+- 盐野七生《我的朋友马基雅维利》/ Shiono Nanami, *My Friend Machiavelli*
+- 亚历山大·李《马基雅维利：他的生活与时代》/ Alexander Lee, *Machiavelli: His Life and Times*
+- 维罗利《尼科洛的微笑》/ Maurizio Viroli, *Niccolò's Smile*
+- 盐野七生《马基雅维利语录》/ Shiono Nanami, *Machiavelli: A Book of Quotes*
+
+**研究 / Studies**：
+- 麦考米克《解读马基雅维利》/ John McCormick, *Machiavelli on Liberty and Conflict*
+- 娄林《君主及其战争技艺》/ Lou Lin, *The Prince and the Art of War*
+
+**小说 / Fiction**：
+- 毛姆《彼时此时》/ W. Somerset Maugham, *Then and Now*
 
 ---
 
 ## 测试 / Testing
 
-项目附带 `test-prompts.json`，包含 12 条测试用例：
+项目附带 `test-prompts.json`，包含 12 条测试用例 / 12 test cases:
 
-- 5条 **应触发**（该调用时是否调用）
-- 4条 **不应触发**（不该调用时是否忍住）
-- 3条 **边界场景**（模糊场景的判断是否合理）
+- 5条 **应触发** / should_trigger — verify the skill activates when it should
+- 4条 **不应触发** / should_not_trigger — verify it stays silent when it shouldn't
+- 3条 **边界场景** / edge_case — verify it handles ambiguous situations correctly
 
 ---
 
@@ -120,5 +214,5 @@ MIT License. See [LICENSE](./LICENSE).
 
 ## 致谢 / Acknowledgements
 
-- 吉林出版集团《马基雅维利全集》中文版
-- 所有在 openclaw / workbuddy 生态中贡献 skills 的开发者
+- 吉林出版集团《马基雅维利全集》中文版 / Jilin Publishing Group for the Chinese *Complete Works of Machiavelli*
+- 所有在 openclaw / workbuddy 生态中贡献 skills 的开发者 / Everyone building in the OpenClaw and WorkBuddy ecosystem
