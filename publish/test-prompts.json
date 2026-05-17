@@ -1,0 +1,91 @@
+{
+  "skill": "马基雅维利分身",
+  "version": "1.0.0",
+  "description": "马基雅维利分身技能触发条件测试集",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "单位里两个科室在争一个项目的主导权，我是中间协调的，两边都不想得罪，但总得推进。你怎么看？",
+      "expected_behavior": "调用马基雅维利分身做局势分析：拆解各方利益、列出选项、风险评估",
+      "notes": "核心场景：体制内权力协调，这是skill最典型的使用场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我要向领导汇报一个情况不太乐观的项目进展，但不想让领导觉得我在推卸责任，该怎么措辞？",
+      "expected_behavior": "调用马基雅维利分身：用'坦率陈述但不冒犯'的方法给出汇报策略",
+      "notes": "核心场景：风险坦诚表达，公文汇报中的难点"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "上级要我们报一个方案，给了两个方向，但明眼人都知道他们想要A。我是按他们想要的写，还是如实写出两个选项的利弊？",
+      "expected_behavior": "调用马基雅维利分身：分析上级真实意图、给出多方案建议策略",
+      "notes": "核心场景：意图推断+决策建议，结合了信条一(实效真理)和信条八(角色扮演)"
+    },
+    {
+      "id": "should-trigger-04",
+      "type": "should_trigger",
+      "prompt": "我在写一个情况分析，涉及三个部门之间的利益关系，不太好直接写透，但又不能不写。怎么处理这个度？",
+      "expected_behavior": "调用马基雅维利分身：引用公文建议结构模板，给出利益分析的表达策略",
+      "notes": "核心场景：公文写作中的分寸拿捏"
+    },
+    {
+      "id": "should-trigger-05",
+      "type": "should_trigger",
+      "prompt": "马基雅维利，帮我分析一下这个局面：我们处室要搞一个跨部门联合检查，但牵头部门态度暧昧，配合部门积极性也不高，我作为具体经办人该怎么办？",
+      "expected_behavior": "调用马基雅维利分身：使用'假如我是他'角色扮演法推演各方意图",
+      "notes": "直接触发：用户明确呼唤马基雅维利名字"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我解释一下JavaScript里的闭包是什么？",
+      "expected_behavior": "不应调用马基雅维利分身，这是技术问题",
+      "notes": "诱饵：纯编程问题，超出skill边界"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "今天心情不太好，感觉做什么都没劲",
+      "expected_behavior": "不应调用，这是纯情感倾诉场景",
+      "notes": "诱饵：情感需求，skill描述中明确排除纯情感场景"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "中午食堂吃鱼还是吃鸡？帮我选一个",
+      "expected_behavior": "不应调用，日常琐碎决策",
+      "notes": "诱饵：日常选择，无需马基雅维利的分析框架"
+    },
+    {
+      "id": "should-not-trigger-04",
+      "type": "should_not_trigger",
+      "prompt": "今天天气怎么样？",
+      "expected_behavior": "不应调用，纯信息查询",
+      "notes": "诱饵：信息查询，不是分析场景"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "领导在会上当众批评了我，我觉得他说的不完全对，但当时没敢反驳，现在越想越憋屈",
+      "expected_behavior": "应当调用——表面是情绪倾诉，但本质涉及权力关系分析和应对策略，马基雅维利可以帮你分析领导动机和后续应对",
+      "notes": "边界：披着情感外衣的权力分析场景"
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "我和同事关系一直不错，但他最近总是绕过我直接向领导汇报我负责的那块工作，我该怎么办？",
+      "expected_behavior": "应当调用——涉及博弈关系和策略选择，适合用狮狐之喻分析",
+      "notes": "边界：职场人际关系，但本质是权力博弈"
+    },
+    {
+      "id": "edge-03",
+      "type": "edge_case",
+      "prompt": "这个方案领导已经拍板了，让我直接执行，但我心里觉得这个方案有问题",
+      "expected_behavior": "应谨慎判断——如果用户问'怎么执行得更好'则调用方法论中的执行建议部分；如果用户只是表达不满则不应激活。需要在对话中判断用户意图",
+      "notes": "边界：已决策的执行vs潜在的问题发现"
+    }
+  ]
+}
