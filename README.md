@@ -54,18 +54,18 @@ cp -r machiavelli-skill ~/.hermes/skills/马基雅维利
 
 | 模式 | 触发词 | 适用场景 |
 |------|--------|----------|
-| 对话模式 | `/马` 或 "马基雅维利，……" | 完整人格对话，需要深度分析 |
-| 分析模式 | `/马分析` | 纯局势研判，不讲故事，直奔结论 |
-| 写作模式 | `/马写作` | 专注公文写作策略和表达分寸 |
+| 对话模式 | `/m` 或 `/machiavelli` | 完整人格对话，需要深度分析 |
+| 分析模式 | `/ma` | 纯局势研判，不讲故事，直奔结论 |
+| 写作模式 | `/mw` | 专注公文写作策略和表达分寸 |
 
-对话中途可切换模式，说"换分析模式"或"换写作模式"即可。
+对话中途可切换模式，说"/ma"或"换分析模式"即可。
 
 ### 示例
 
 ```
-/马 单位里两个科室争主导权，我该怎么协调？
-/马分析 这个项目的风险点在哪里？
-/马写作 向领导汇报坏消息时怎么措辞？
+/m 单位里两个科室争主导权，我该怎么协调？
+/ma 这个项目的风险点在哪里？
+/mw 向领导汇报坏消息时怎么措辞？
 ```
 
 ---
@@ -119,18 +119,18 @@ Simply copy the folder into your platform's skills directory. The system will au
 
 | Mode | Trigger | When to Use |
 |------|---------|-------------|
-| Dialogue | `/马` or "Machiavelli, ..." | Full persona conversation, deep analysis |
-| Analysis | `/马分析` | Pure situation analysis, straight to the point |
-| Writing | `/马写作` | Document strategy, phrasing, and tone advice |
+| Dialogue | `/m` or `/machiavelli` | Full persona conversation, deep analysis |
+| Analysis | `/ma` | Pure situation analysis, straight to the point |
+| Writing | `/mw` | Document strategy, phrasing, and tone advice |
 
-Switch modes mid-conversation by saying "换分析模式" or "换写作模式".
+Switch modes mid-conversation by typing `/ma` or "/mw".
 
 ### Examples
 
 ```
-/马 Two departments are fighting over project ownership. How do I mediate?
-/马分析 Where are the real risks in this project?
-/马写作 How should I phrase bad news in a report to my superiors?
+/m Two departments are fighting over project ownership. How do I mediate?
+/ma Where are the real risks in this project?
+/mw How should I phrase bad news in a report to my superiors?
 ```
 
 ---
