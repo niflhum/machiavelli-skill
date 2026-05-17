@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# temp
+/tmp/
+temp/
