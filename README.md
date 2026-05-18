@@ -150,7 +150,7 @@ machiavelli-skill/
 │   ├── 06-people-vs-elites.md         # People vs Elites
 │   ├── 07-own-arms.md                 # Own Arms
 │   └── 08-republic-vs-principality.md # Republic vs Principality
-├── sources/                    # 10 distilled source summaries
+├── sources/                    # 11 distilled source summaries
 │   ├── the-prince.md
 │   ├── discourses.md
 │   ├── art-of-war.md
