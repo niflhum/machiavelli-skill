@@ -131,3 +131,12 @@ All notable changes to this project will be documented in this file.
 - 盐野七生《我的朋友马基雅维利》
 - 亚历山大·李《马基雅维利：他的生活与时代》
 - 维罗利《尼科洛的微笑》
+
+## v1.4.0 - 2026-05-21
+### Changed
+- Root SKILL.md fully bilingual (English + Chinese) — all 7 sections, 13 credos, 11 cases, 5 frameworks
+- publish/SKILL.md fully bilingual — trimmed ClawHub version
+- Added FUNDING.yml with GitHub Sponsors
+- Tags updated with English keywords for international discovery
+### Added
+- English translations throughout: headings, descriptions, frameworks, boundaries, launch guide
