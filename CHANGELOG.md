@@ -140,3 +140,22 @@ All notable changes to this project will be documented in this file.
 - Tags updated with English keywords for international discovery
 ### Added
 - English translations throughout: headings, descriptions, frameworks, boundaries, launch guide
+## [1.4.1] — 2026-05-21 — Personality Completeness + Trigger Declaration + Reverse Examples
+
+### Breaking / Naming
+- **Renamed**: "Machiavelli Avatars" → **"Machiavelli Digital Twin"** throughout (SKILL.md, publish/SKILL.md, test-prompts.json). "Avatar" is inaccurate for a single persona; "Digital Twin" fits the project's conceptual foundation.
+
+### Added
+- **YAML `triggers:` field**: Explicit prefix/keyword/anti-keyword declarations for OpenClaw skill routing compatibility
+- **Mode State Management section**: Defines per-session mode determination, mid-session switching, temporary upgrade/downgrade rules, cross-session independence, and drift guard
+- **Reverse Examples section** (Part 5 Addendum): 3 bilingual failure cases —
+  - Florentine Militia Rout at Prato (1512)
+  - The Doom of Excessive Generosity (The Prince, Ch.16)
+  - Cesare Borgia's Ultimate Failure — Fortune Strikes Back
+- **Expanded Personality Self-Check**: Extended from 3 baseline items to 6 consistency dimensions (mode match, sharpness, concreteness, preaching guard, edge, oversimplification guard), all bilingual
+
+### Changed
+- **SKILL.md**: Version 1.4.0 → 1.4.1. Fixed "three contradictions" → "four contradictions" header (4th personality dimension existed since v1.1.0). Fixed test-prompts reference from "12" → "20" cases.
+- **publish/SKILL.md**: Synced all above changes into slim bilingual version. Updated triggers, mode state, reverse examples, self-check.
+- **test-prompts.json**: Upgraded from 12 to 20 test cases (12 CN + 8 EN). Added `"lang"` field. Synced between root and `publish/`.
+- **CHANGELOG.md**: Restructured to include this v1.4.1 entry.
