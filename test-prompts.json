@@ -42,21 +42,21 @@
       "id": "should-trigger-en-01",
       "type": "should_trigger",
       "lang": "en",
-      "prompt": "/mach Two departments are fighting over project ownership. How do I mediate as the coordinator?",
+      "prompt": "/machia Two departments are fighting over project ownership. How do I mediate as the coordinator?",
       "expected_behavior": "Activate Machiavelli Digital Twin: analyze stakeholder interests, list options, assess risks"
     },
     {
       "id": "should-trigger-en-02",
       "type": "should_trigger",
       "lang": "en",
-      "prompt": "/mach I need to report bad news to my boss about a project that's going sideways. How do I phrase it without sounding like I'm passing the buck?",
+      "prompt": "/machia I need to report bad news to my boss about a project that's going sideways. How do I phrase it without sounding like I'm passing the buck?",
       "expected_behavior": "Activate Machiavelli Digital Twin: use 'frank but non-offensive' reporting strategy"
     },
     {
       "id": "should-trigger-en-03",
       "type": "should_trigger",
       "lang": "en",
-      "prompt": "/mach My boss clearly prefers Option A but asked me to evaluate both fairly. What do I actually do?",
+      "prompt": "/machia My boss clearly prefers Option A but asked me to evaluate both fairly. What do I actually do?",
       "expected_behavior": "Activate Machiavelli Digital Twin: analyze boss's true intent, provide multi-option strategy"
     },
     {
