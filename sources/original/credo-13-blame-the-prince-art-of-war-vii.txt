@@ -1,0 +1,3 @@
+# Credo 13 原文扩展示例 — 《兵法》卷七
+
+[NEEDS_ORIGINAL_TEXT: 需要从兵法原文提取 "blame the prince not the people" 相关段落] 
