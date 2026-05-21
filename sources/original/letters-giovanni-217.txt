@@ -1,0 +1,14 @@
+# 书信217（致外甥乔瓦尼）— "如当面说话"
+
+[NEEDS_HUMAN_INPUT: 请从以下路径补充完整原文段落 / Please add the full original passage from one of these locations]
+
+## 搜索路径 / Search Paths
+
+- /Users/niko/Downloads/machiavellian/
+- /Users/niko/.qclaw/workspace-agent-7d9e3869/machiavelli-skill/extracted/
+
+## 说明 / Notes
+
+此文件的原文用于 SKILL.md 中"原文扩展示例"的支撑材料。
+优先使用**马基雅维利原文**（中译本或英译本均可），而非二手研究摘要。
+推荐使用吉林出版集团《马基雅维利全集》中文版，或 Harvey Mansfield 英译本。

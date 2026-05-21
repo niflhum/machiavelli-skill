@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.5.0] — 2026-05-21
+
+### Changed
+- 统一 root 和 publish/ 版本号为 v1.5.0，消除版本漂移
+- root SKILL.md 保留完整详细内容，新增英文双语层和原文扩展示例占位符
+- publish/SKILL.md 从 root SKILL.md 自动生成（通过 build-publish.js）
+
+### Added
+- `scripts/build-publish.js`：从 root SKILL.md 生成 publish/SKILL.md
+- `scripts/validate-versions.js`：版本号一致性校验
+- `scripts/build-frameworks.js`：从 frameworks/ 生成 publish/frameworks/
+- `sources/original/` 目录：存放原文段落
+- 13条信条的「原文扩展示例」占位符
+
+---
+
+
 ## [1.3.0] — 2026-05-18 — 两版 skill 合并
 
 ### 新增
