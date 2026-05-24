@@ -250,5 +250,5 @@ MIT License. See [LICENSE](./LICENSE).
 
 ## 致谢 / Acknowledgements
 
-- 吉林出版集团《马基雅维利全集》中文版 / Jilin Publishing Group for the Chinese *Complete Works of Machiavelli*
+- 中文版《马基雅维利全集》的译者和编辑团队
 - 所有在 OpenClaw / WorkBuddy 生态中贡献 skills 的开发者 / Everyone building in the OpenClaw and WorkBuddy ecosystem
