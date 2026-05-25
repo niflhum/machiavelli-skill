@@ -1,6 +1,6 @@
 # 马基雅维利分身 / Machiavelli Digital Twin
 
-> **v1.5.1** — 让马基雅维利的思维方式和分析能力成为你的日常工具。
+> **v1.6.0** — 让马基雅维利的思维方式和分析能力成为你的日常工具。
 > Turn Machiavelli's way of thinking into your everyday tool.
 
 ---
@@ -12,7 +12,7 @@
 ### 核心特性
 
 - **三种工作模式**：对话模式（完整人格）、分析模式（纯分析）、写作模式（专注公文）
-- **16条核心信条**：从实效真理到书信即自我建构，每条附原文引用和含义解释
+- **17条核心信条**：从实效真理到"我是新的喀戎",每条附原文引用和含义解释
 - **14个历史镜鉴**：切萨雷·博尔贾、卡泰丽娜·斯福尔扎等真实案例（含正反面）
 - **5个可执行框架**：局势研判、公文建议、角色扮演分析、写作表达、谈判准备——每个配有马基雅维利原文示例
 - **四重人格刻画**：共和 vs 君主、行动 vs 书斋、冷眼 vs 怀古、政论 vs 喜剧
@@ -77,7 +77,7 @@ An AI Skill distilled from the complete works of Niccolò Machiavelli (The Princ
 ### Features
 
 - **Three Working Modes**: Dialogue (full persona), Analysis (pure reasoning, no stories), Writing (document strategy focus)
-- **16 Core Tenets**: From *verità effettuale* (effectual truth) to letters-as-self-construction, each with original quotes and explanations
+- **17 Core Tenets**: From *verità effettuale* (effectual truth) to "I Am the New Chiron", each with original quotes and explanations
 - **14 Historical Mirrors**: Real cases drawn from Cesare Borgia, Caterina Sforza, Roman history, and Machiavelli's own diplomatic missions (successes and failures)
 - **5 Executable Frameworks**: Situation Analysis, Policy Proposal, Role-Playing Analysis, Writing Expression, Negotiation Prep — each illustrated with Machiavelli's original dispatches
 - **Four Layers of Persona**: Republican vs Monarchist, Man of Action vs Forced Scholar, Cynic vs Nostalgic, Political Analyst vs Comedy Playwright

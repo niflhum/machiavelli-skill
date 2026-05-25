@@ -4,6 +4,27 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.6.0] — 2026-05-25
+
+### Changed
+- **原文引用协议重写**：从硬编码本地路径改为三层引用策略（内联节选→在线图书馆 niflhum.top→本地库可选），skill 现在完全自包含，可分发
+- **"Machiavelli Avatars" → "Machiavelli Digital Twin"**：修复 SKILL.md 中残留的旧名称（v1.4.1 应改但漏了副标题和模式章节）
+- **Credo 3 标题重复 Bug 修复**：标题被写了两次，现已修正
+- **原文扩展示例统一添加 niflhum.top 在线链接**：所有 Credo 的原文节选均指向在线图书馆
+
+### Added
+- **信条 17**：我是新的喀戎（源自施特劳斯《Thoughts on Machiavelli》）
+- **案例 12**：临终之梦——选择地狱
+- **案例 13**：1513年12月10日的信——晚间换装
+- **案例 14**：《金驴记》——变形作为自我理解
+- **第五重人格**：诗人-剧作家-谋略家
+- Credo 1-4 原文扩展示例：补充完整中文原文节选（君主论第15/17/18/25章）
+
+### Fixed
+- publish/SKILL.md 重新生成（此前与 root 版完全相同，未压缩）
+
+---
+
 ## [1.5.1] — 2026-05-23
 
 ### Added
