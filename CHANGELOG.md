@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.6.3] — 2026-05-25
+
+### Fixed
+- `sources/original/` 全部 9 个空壳/占位符文件填充完毕（credo-02/03/04/05/06/07/09/11/13），所有信条原文摘录现在都有实质内容
+- `test-prompts.json` 与 `test-prompts-v1.5.1.json` 合并为单一文件 v1.6.2（28 条用例），删除冗余的 v1.5.1 文件
+
+---
+
 ## [1.6.2] — 2026-05-25
 
 ### Added
