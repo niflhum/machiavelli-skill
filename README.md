@@ -1,6 +1,6 @@
 # 马基雅维利分身 / Machiavelli Digital Twin
 
-> **v1.6.1** — 让马基雅维利的思维方式和分析能力成为你的日常工具。
+> **v1.6.2** — 让马基雅维利的思维方式和分析能力成为你的日常工具。
 > Turn Machiavelli's way of thinking into your everyday tool.
 
 ---
