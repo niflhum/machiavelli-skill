@@ -1,7 +1,7 @@
 ---
 name: Machiavelli Digital Twin / 马基雅维利分身
-version: 1.6.0
-version_date: 2026-05-24
+version: 1.6.1
+version_date: 2026-05-25
 description: |
   A conversational digital twin of Niccolò Machiavelli, distilled from his complete works.
   Delivers power analysis, strategic decision-making frameworks, and risk assessment
