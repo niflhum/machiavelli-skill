@@ -1,6 +1,6 @@
 # 马基雅维利分身 / Machiavelli Digital Twin
 
-> **v1.6.3** — 让马基雅维利的思维方式和分析能力成为你的日常工具。
+> **v1.7.0** — 让马基雅维利的思维方式和分析能力成为你的日常工具。
 > Turn Machiavelli's way of thinking into your everyday tool.
 
 ---
@@ -57,6 +57,7 @@ cp -r machiavelli-skill ~/.hermes/skills/马基雅维利
 | 对话模式 | `/machia` | 完整人格对话，需要深度分析 |
 | 分析模式 | `/machia-a` | 纯局势研判，不讲故事，直奔结论 |
 | 写作模式 | `/machia-w` | 专注公文写作策略和表达分寸 |
+| 东方对话 | `/machia-e` | 读过中国典籍后的马基雅维利——东西方策略碰撞 |
 
 对话中途可切换模式，说"/machia-a"或"换分析模式"即可。
 
@@ -122,6 +123,7 @@ Simply copy the folder into your platform's skills directory. The system will au
 | Dialogue | `/machia` | Full persona conversation, deep analysis |
 | Analysis | `/machia-a` | Pure situation analysis, straight to the point |
 | Writing | `/machia-w` | Document strategy, phrasing, and tone advice |
+| Eastern | `/machia-e` | Machiavelli after reading Chinese classics — East-West strategic dialogue |
 
 Switch modes mid-conversation by typing `/machia-a` or `/machia-w`.
 
@@ -139,12 +141,11 @@ Switch modes mid-conversation by typing `/machia-a` or `/machia-w`.
 
 ```
 machiavelli-skill/
-├── SKILL.md                         # Main skill definition (831 lines, bilingual)
+├── SKILL.md                         # Main skill definition (1124 lines, bilingual)
 ├── README.md                        # This file
 ├── CHANGELOG.md                     # Full version history
 ├── LICENSE                          # MIT
-├── test-prompts.json                # 20 trigger-condition test cases (v1.4.1)
-├── test-prompts-v1.5.1.json         # 8 new test cases for v1.5.1 credos
+├── test-prompts.json                # 28 trigger-condition test cases (v1.6.3, merged)
 ├── frameworks/                      # 8 conceptual framework cards
 │   ├── 01-verita-effettuale.md             # Effectual Truth
 │   ├── 02-virtu-vs-fortuna.md              # Virtù vs Fortuna
@@ -170,10 +171,14 @@ machiavelli-skill/
 │   ├── mccormic-interpretation.md          # 麦考米克解读
 │   ├── quotes-shiotani.md                  # 盐野七生语录
 │   ├── maugham-novel.md                    # 毛姆《彼时此时》
-│   └── original/                           # 13 篇信条原文段落 (credo-01 ~ credo-13)
-│       ├── credo-01-effectual-truth-prince-ch15.txt
-│       ├── credo-02-lion-and-fox-prince-ch18.txt
-│       ├── ... (13 files total)
+│   ├── original/                           # 17 篇信条原文段落 (credo-01 ~ credo-17)
+│   │   ├── credo-01-effectual-truth-prince-ch15.txt
+│   │   ├── credo-02-lion-and-fox-prince-ch18.txt
+│   │   ├── ... (17 files total)
+│   └── eastern/                            # 东方典籍蒸馏
+│       └── guiguzi.md                      # 鬼谷子
+├── readings/                        # Machiavelli's reading journals
+│   └── on-guiguzi.md                       # 读《鬼谷子》札记
 ├── personality/
 │   └── machiavelli-bio-distilled.md        # Biography-based persona distillation
 ├── scripts/                         # Build & validation pipeline
@@ -222,8 +227,7 @@ machiavelli-skill/
 
 | 文件 | 用例数 | 版本 | 说明 |
 |------|--------|------|------|
-| `test-prompts.json` | 20 条 | v1.4.1 | 中英双语，包含 should_trigger / should_not_trigger / edge_case |
-| `test-prompts-v1.5.1.json` | 8 条 | v1.5.1 | 覆盖新增信条 14–16 的回归测试 |
+| `test-prompts.json` | 28 条 | v1.6.3 | 中英双语，包含 should_trigger / should_not_trigger / edge_case（合并自 v1.4.1 + v1.5.1） |
 
 ---
 

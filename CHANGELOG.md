@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.7.0] — 2026-05-25
+
+### Added
+- **东方镜鉴 · 第一阶段**：马基雅维利读《鬼谷子》——分身首次接触中国典籍
+  - `sources/eastern/guiguzi.md`：鬼谷子蒸馏稿——12 篇核心概念 + 原文引用 + Credo 对照
+  - `readings/on-guiguzi.md`：马基雅维利读《鬼谷子》札记——六章书信体读后感
+  - `sources/original/credo-14~17.txt`：Credo 14-17 原文文件
+- **Credo 东方注**：Credo 1/2/3/8 新增东方阅读经验标注
+- **新触发词** `/machia-e`：东方对话模式——读过中国典籍后的马基雅维利
+- **目录扩展**：新增 `sources/eastern/`、`readings/`
+
+### Changed
+- README 与 SKILL.md 更新为四种工作模式（+ Eastern）
+- 版本 1.6.3 → 1.7.0
+
+---
+
 ## [1.6.3] — 2026-05-25
 
 ### Fixed

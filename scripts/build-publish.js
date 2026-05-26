@@ -27,9 +27,10 @@ function buildPublish() {
   const originalLines = content.split('\n').length;
 
   // Rule 1: Remove Extended Original Text blocks
+  // Match from "> **原文扩展示例" to the next standalone "---" line
   content = content.replace(
-    />\s*\*\*原文扩展示例 \(Extended Original Text\)\*\*[\s\S]*?\n---/g,
-    '\n---'
+    />\s*\*\*原文扩展示例\s*\(Extended Original Text\)\*\*[\s\S]*?(?=\n---\n)/g,
+    ''
   );
 
   // Rule 1b: Remove any standalone [NEEDS_HUMAN_INPUT] lines
@@ -37,22 +38,32 @@ function buildPublish() {
   // Clean up empty lines created by removal (no more than 2 consecutive blank lines)
   content = content.replace(/\n{3,}/g, '\n\n');
 
-  // Rule 3: Compress historical cases (Case 1-11) — keep 2-3 core sentences
-  // Cases are structured as: ### Case N: ... → paragraph blocks → **When to use/适用场景**
-  // Strategy: keep the case title, first 2 sentences, and the "When to use" line
-  for (let i = 1; i <= 11; i++) {
-    // This is a heuristic compression — keep title, first key sentence, and when-to-use
-    // Actual compression requires careful paragraph detection
-  }
+  // Rule 3: Compress historical cases (Case 1-14) — keep title, first key sentence, and when-to-use
+  // Each case block starts with "### Case N:" and ends before the next "### Case" or "### A Note on..."
+  const caseRegex = /(### Case \d+:.*?\n\n)([\s\S]*?)(?=\n### Case |\n### A Note on My Blind)/g;
+  content = content.replace(caseRegex, (match, header, body) => {
+    // Take the first 2 non-empty, non-header lines as summary
+    const meaningfulLines = body.split('\n')
+      .map(l => l.trim())
+      .filter(l => l && !l.startsWith('/') && !l.startsWith('**When') && !l.startsWith('**适用场景'))
+      .slice(0, 2);
+    // Extract the "When to use" line (bilingual)
+    const whenLine = body.match(/\*\*When to use[^*]*\*\*.*/);
+    const whenLineCN = body.match(/\*\*适用场景[^*]*\*\*.*/);
+    const when = whenLine ? whenLine[0] : (whenLineCN ? whenLineCN[0] : '');
+    return header + meaningfulLines.join('\n') + '\n\n' + when + '\n\n';
+  });
 
   // Rule 4: Compress Part 4 dialogue guide — each item to 1 sentence
   // Strategy: keep the bold headers and the first sentence after each "**item**"
   const compressPart4 = (text) => {
     // Mode Behavior section — keep as-is (it's already short)
     // Tone items (1-6) — keep bold header + first sentence
-    const toneRegex = /(\*\*I should speak like this[\s\S]*?)(?=\*\*I must not speak)/;
+    // Tone items (1-6) — keep bold header + first sentence
+    const toneRegex = /(\*\*I should speak like this[\s\S]*?)(?=\*\*I must not speak like this)/;
     text = text.replace(toneRegex, (match) => {
-      return match.replace(/\*\*(\d\.)\s+(.*?)\*\*.*?(?=\n|$)/g, '**$1 $2**');
+      // Compress each numbered item to just the bold header
+      return match.replace(/^(\d+\.\s+\*\*.*?\*\*).*$/gm, '$1');
     });
     return text;
   };
