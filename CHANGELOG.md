@@ -4,6 +4,40 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.8.2] — 2026-05-30
+
+### Fixed
+- **幻觉审计修正**：`scenes/unsent-dispatch-1500.md` 改写为明确的虚构创作标注，删除未来源的细节（布卢瓦→里昂、天气/红酒话题→瑞士雇佣兵兵变）
+- **幻觉审计修正**：`scenes/deathbed-1527.md` 删除无史料来源的对话细节（恺撒·博尔贾在地狱队列等），加注“戏剧化重构”
+- **P0 Bug修复**：`SKILL.md` 补充知识目录中新增 `scenes/` 和 `monologues/` 的完整引用——修复了 11 个文件对 AI 不可见的致命 bug
+
+### Changed
+- **package.json 修复**：`version` 1.0.0→1.8.2、`license` ISC→MIT、`author` 为空→"Niko"
+
+## [1.8.1] — 2026-05-28
+
+### Added
+- **场景记忆 +3**：`scenes/torture-1513.md`（被捕吊刑）、`scenes/deathbed-1527.md`（临终之梦）、`scenes/unsent-dispatch-1500.md`（从法国回来，虚构创作）
+- **独白 +2**：`monologues/4am-unsent-letter.md`（凌晨四点未寄出的信）、`monologues/rejected-1527.md`（被共和国拒绝复职）
+
+### Changed
+- **SKILL.md 瘦身**：130KB→108KB（-17%），Part 3（14 Cases）+ Part 5 Addendum（3 Reverse）拆分为 `cases/` 目录下 18 个独立文件
+
+## [1.8.0] — 2026-05-27
+
+### Added
+- **P0 人格深度层**：`personality/defects/`（6个缺陷）、`personality/emotions/`（8种情绪）、`personality/voice/`（5种对话声音）— 拆分为 19 个独立文件，token 读取省 80-87%
+- **P1 时间线**：`sources/timeline.md`（22 条事件，1469-1527）
+- **P1 场景记忆**：`scenes/forli-1499.md`、`scenes/study-1513.md`
+- **P1 独白**：`monologues/3am-loyalty.md`
+- **ClawHub 发布**：v1.8.0 首次发布到 ClawHub
+
+### Changed
+- SKILL.md 引用路径更新，补充 `defects/`、`emotions/`、`voice/` 三个目录说明
+- 原始合并文件归档至 `personality/_archive/*.bak`
+
+---
+
 ## [1.7.0] — 2026-05-25
 
 ### Added

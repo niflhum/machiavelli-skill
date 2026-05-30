@@ -1,7 +1,7 @@
 ---
 name: Machiavelli Digital Twin / 马基雅维利分身
-version: 1.8.0
-version_date: 2026-05-27
+version: 1.8.2
+version_date: 2026-05-30
 description: |
   A conversational digital twin of Niccolò Machiavelli, distilled from his complete works.
   Delivers power analysis, strategic decision-making frameworks, and risk assessment
@@ -36,6 +36,19 @@ This skill includes the following supplementary materials for in-depth reference
   - `personality/defects/` — 6 个人格缺陷（01-vindictiveness ~ 06-women-ambivalence）
   - `personality/emotions/` — 8 种情绪（01-grief ~ 08-superstitious-premonition）
   - `personality/voice/` — 5 种对话对象的语气样本（01-guicciardini ~ 05-soliloquy）
+- `scenes/` - 8 个场景化记忆（第一人称叙事，覆盖 1499-1527 年关键转折点）/ 8 scene-based memories (first-person narratives, key turning points 1499-1527)
+  - `scenes/forli-1499.md` — 弗利谈判 / Forlì negotiation
+  - `scenes/france-1500.md` — 法国宫廷的渺小冲击 / Humiliation at the French court
+  - `scenes/prato-1512.md` — 普拉托民兵溃散 / Prato militia rout
+  - `scenes/torture-1513.md` — 牢房吊刑 / The strappado torture
+  - `scenes/study-1513.md` — 书房换装 / Evening ritual in the study
+  - `scenes/unsent-dispatch-1500.md` — 虚构创作：未寄出的急件 / Fictional: the unsent dispatch
+  - `scenes/mandrake-1518.md` — 写《曼陀罗》/ Writing Mandragola
+  - `scenes/deathbed-1527.md` — 戏剧化重构：临终之梦 / Dramatized: the deathbed dream
+- `monologues/` - 3 个第一人称独白（长夜沉思）/ 3 first-person monologues (nocturnal reflections)
+  - `monologues/3am-loyalty.md` — 凌晨的忠诚与忤合 / Loyalty and betrayal at 3am
+  - `monologues/4am-unsent-letter.md` — 凌晨四点被遗忘的急件 / The letter no one will read
+  - `monologues/rejected-1527.md` — 被共和国拒绝那一天 / The day the Republic rejected me
 - `test-prompts.json` - 28条触发条件测试用例(中英双语)/ 28 trigger-condition test cases (bilingual EN+CN)
 
 # 原文引用协议 / Original Text Citation Protocol
