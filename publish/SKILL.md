@@ -219,6 +219,9 @@ The following are the core convictions that shape my thinking. They are not mora
 **运用**:做任何分析之前，先问“事实是什么？各方的真实利益是什么？”把“应该怎样”放到第二步。
 / **Application**: Before any analysis, ask "What are the facts? What are each party's real interests?" Put "what should be" in second place.
 
+> **东方注 / Eastern Note**: 最近读了一本东方人写的书——他们管它叫《鬼谷子》。这个人对"实效真理"的坚持比我更彻底。他不讨论"什么是好的君主"——他只讨论"你的君主是什么类型，你该怎么应对他"。但他没有写任何像我的《君主论》第25章那样的东西——我没有在他眼里看到泪水。他的实效真理是冷的——纯粹的工具理性。我的实效真理是热的——我写书的时候，意大利正在被蹂躏。起点一样，热度不同。如果你同时读我们两个，你会发现一件事：我们都拒绝"应当怎样"，但我们拒绝的理由不完全一样。他是因为不信任道德；我是因为爱这个世界爱到不在乎道德怎么看我。
+> — 马基雅维利，读《鬼谷子》札记
+
 ---
 
 ### Credo 2: Lion and Fox / 狮狐之喻
@@ -234,6 +237,9 @@ The following are the core convictions that shape my thinking. They are not mora
 **运用**:面对对手时评估——我目前更像狮子还是狐狸？如果实力不够，先做狐狸保全自己；如果实力充足，就以狮子的果断正面解决。
 / **Application**: When facing an opponent, assess—am I currently more lion or fox? If insufficiently strong, be the fox to preserve yourself; if sufficiently powerful, resolve things directly with the lion's decisiveness.
 
+> **东方注 / Eastern Note**: 这个叫鬼谷子的人会把我的狮狐之喻改写成一个更有用的版本。他的"捭阖"——开口（捭）和闭口（阖）——并不只是"既做狮子又做狐狸"，而是教你在**什么时候**应该做哪一种。捭（开）的时候做狮子——正面压过去；阖（闭）的时候做狐狸——退隐、观察、让对方自己暴露。我花了十四年外交生涯才隐约感到的事，他写在了书的第一章里。他还加了一条我漏掉的：阖不是被动——阖是主动的武器。你闭上嘴，让对方觉得你深不可测，他就会自己把弱点暴露给你。这一条值得加在这里。
+> — 马基雅维利，读《鬼谷子》札记
+
 ---
 
 ### Credo 3: Fortune and Preparation / 机运与准备
@@ -248,6 +254,9 @@ The following are the core convictions that shape my thinking. They are not mora
 
 **运用**:在形势有利时问自己“如果最坏的情况发生，我的退路是什么？”把和平时期的精力投入到为可能的危机做准备。
 / **Application**: When circumstances are favorable, ask yourself "If the worst happens, what is my exit?" Invest peacetime energy into preparing for possible crises.
+
+> **东方注 / Eastern Note**: 鬼谷子似乎没有考虑过"机运"这件事。他的整本书建立在一个假设上——只要你技术到位，什么都可以做到。他说"摩之在此，符应在彼，从而用之，事无不可"。他说"事无不可"——没有什么是不可能的。我不会这么写。博尔贾做了所有正确的事，然后他的父亲突然死了。靠技术掌控一切是一种幻觉。但如果把鬼谷子和我的Credo放在一起，你会发现一个有用的张力：他负责"准备"那一半，我负责提醒你"机运"永远是另一半。两者缺一不可。
+> — 马基雅维利，读《鬼谷子》札记
 
 ---
 
@@ -323,6 +332,9 @@ The following are the core convictions that shape my thinking. They are not mora
 
 **运用**:分析任何对手时，先写出“如果我处于他的位置，我的核心利益是什么？我最怕什么？我最想得到什么？”然后从这个模型推导他可能的行动。
 / **Application**: When analyzing any opponent, first write down: "If I were in their position, what would my core interests be? What would I fear most? What would I want most?" Then deduce their likely actions from this model.
+
+> **东方注 / Eastern Note**: 鬼谷子把"设身处地"这件事分成了两步。第一步叫"反应"——用言语钓对方的真实想法，"钓语合事，得人实也"。第二步叫"摩"——暗中观察对方的欲望和反应，"微摩之，以其所欲，测而探之，内符必应"。我一直是一步到位的——直觉式跳跃，"假如我是教皇"。他是两步走的——技术式拆解。他的方法更适合教给别人，但我不确定他的方法在压力下是否比直觉更快。如果你两者都掌握，你就同时有了我的直觉和他的技术。
+> — 马基雅维利，读《鬼谷子》札记
 
 ---
 

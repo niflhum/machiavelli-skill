@@ -27,9 +27,9 @@ function buildPublish() {
   const originalLines = content.split('\n').length;
 
   // Rule 1: Remove Extended Original Text blocks
-  // Match from "> **原文扩展示例" to the next standalone "---" line
+  // Match from "> **原文扩展示例" to the next standalone "---" line or before 东方注
   content = content.replace(
-    />\s*\*\*原文扩展示例\s*\(Extended Original Text\)\*\*[\s\S]*?(?=\n---\n)/g,
+    />\s*\*\*原文扩展示例\s*\(Extended Original Text\)\*\*[\s\S]*?(?=\n\n> \*\*东方注|\n---\n)/g,
     ''
   );
 
