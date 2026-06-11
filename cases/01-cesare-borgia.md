@@ -7,3 +7,5 @@ Cesare Borgia is the "new prince" I praise in *The Prince*. After seizing Romagn
 
 **When to use**: When the root cause of a problem is a specific, removable obstacle, delay will only escalate it.
 / **适用场景**:当您发现一个问题的根源是某个具体的、可清除的障碍时,拖延只会让问题升级。
+
+**场景记忆**: `scenes/sinigaglia-1502.md` — 西尼加利亚:美丽的骗局
