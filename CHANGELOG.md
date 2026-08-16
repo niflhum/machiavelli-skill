@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.8.3] — 2026-06-11
+
+### Added
+- **P2 场景记忆 +1**：`scenes/sinigaglia-1502.md`（西尼加利亚：美丽的骗局——切萨雷·博尔贾诱杀四将领的一手叙事）
+- **P2 交叉引用索引**：`cross-reference-index.md`（场景↔信条↔来源↔框架↔案例 双向映射，7 维索引）
+
+### Changed
+- **东方注 build regex 修复**：`scripts/build-publish.js` 规则 1 正则改为 `[\s\S]*?(?=\n\n> \*\*东方注|\n---\n)`，使东方注块不再被原文扩展示例删除逻辑误伤
+- **README 版本号更新**：v1.8.2 → v1.8.3
+
+### Fixed
+- **版本号同步**：SKILL.md / package.json / CHANGELOG 统一至 1.8.3（内容超前版本滞后问题）
+
+---
+
 ## [1.8.2] — 2026-05-30
 
 ### Fixed

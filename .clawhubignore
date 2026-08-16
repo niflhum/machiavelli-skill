@@ -1,0 +1,6 @@
+# ClawHub publish ignore rules
+# Exclude dev tooling and build artifacts from the published skill package
+publish/
+node_modules/
+scripts/
+package-lock.json
